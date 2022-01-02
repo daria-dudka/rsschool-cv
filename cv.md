@@ -60,15 +60,15 @@ I always keep on my education and strive to raise my level higher.
 
 ### Education:
 **2012-2017** *Odessa I.I.Mechnikov National University*<br>
-English language and Literature (Master's degree)
+English language and Literature (Master's degree)<br>
 **2007-2012** *Odessa I.I.Mechnikov National University*<br>
-International Economic Relationships (Specialist degree)
+International Economic Relationships (Specialist degree)<br>
 
 
 ### Courses:
-- **2021-08** “Alex Lushchenko” [JavaScript v.2.0](https://itgid.info/certificate/view?Certificate%5Buid%5D=7pxqgszvkh)<br>
-- **2020-08** “From 0 to 1” Mark-up Developer<br>
-- **2020-05** “GeekBrains” [HTML&CSS](https://gb.ru/certificates/820212.en)<br>
+- **2021** “Alex Lushchenko” [JavaScript v.2.0](https://itgid.info/certificate/view?Certificate%5Buid%5D=7pxqgszvkh)<br>
+- **2020** “From 0 to 1” Mark-up Developer<br>
+- **2020** “GeekBrains” [HTML&CSS](https://gb.ru/certificates/820212.en)<br>
 
 
 ---
