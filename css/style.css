@@ -1,3 +1,237 @@
-h1 {
-  color: red;
+html {
+  scroll-behavior: smooth;
 }
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+  background-color: #f5f5f5;
+  color: #505050;
+}
+section {
+  padding: 25px 60px;
+  border-bottom: 2px solid darkslateblue;
+}
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 20px auto;
+  max-width: 1024px;
+  font-size: 18px;
+  line-height: 1.5;
+  background-color: #ffffff;
+  box-shadow: 10px 10px 40px -1px rgb(0 0 0 / 23%);
+}
+.title {
+  font-weight: 700;
+  color: darkslateblue;
+  text-decoration: underline;
+}
+.date {
+  background-color: #505050;
+  display: inline-block;
+  border-radius: 4px;
+  padding: 2px 10px;
+  color: #fff;
+}
+.header {
+  width: 100%;
+  line-height: 50px;
+  background-color: darkslateblue;
+  font-size: 14px;
+  padding: 5px 0;
+  color: #fff;
+  z-index: 10;
+}
+.nav__list {
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  list-style: none;
+}
+.nav__list-item + .nav__list-item{
+  margin-left: 20px;
+}
+
+.nav__link {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 5px;
+  position: relative;
+}
+.nav__link::before {
+  position: absolute;
+  display: block;
+  content: "";
+  width: 0;
+  right: 0;
+  height: 2px;
+  bottom: 5px;
+  background-color: transparent;
+  transition: width ease-in-out 1s;
+}
+.nav__link:hover {
+  color: lemonchiffon;
+  text-shadow: 0 0 3px rgb(0 0 0 / 20%);
+  transition: all 0.3s;
+}
+.nav__link:hover::before {
+  width: 100%;
+  left: 0;
+  background-color: lemonchiffon;
+  transition: width ease-in-out 1s;
+}
+.about {
+  text-align: center;
+}
+.about__photo {
+  margin-bottom: 10px;
+  border: 10px solid darkslateblue;
+  border-radius: 50%;
+}
+.about__name {
+  text-transform: uppercase;
+  font-size: 40px;
+}
+.about__job {
+  font-weight: 300;
+}
+.code__text { 
+  font-size: 14px;
+  line-height: 1.2;
+  background-color: #f5f5f5;
+  box-shadow: 10px 10px 40px -1px rgb(0 0 0 / 23%);
+}
+.education__list, 
+.courses__list,
+.languages__list {
+  list-style: none;
+}
+.education__list-item,
+.courses__list-item,
+.languages__list-item {
+  margin-bottom: 15px;
+}
+.education__university,
+.education__degree {
+  display: block;
+}
+.education__degree {
+  font-weight: 300;
+  font-style: italic;
+}
+.languages__list {
+  display: flex;
+  justify-content: space-between;
+}
+.languages__name {
+  display: block;
+  font-size: 25px;
+  font-weight: 600;
+}
+.projects__item-wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  min-height: 220px;
+  height: 100%;
+  row-gap: 30px;
+}
+.projects__item {
+  position: relative;
+  max-width: 280px;
+  width: 100%;
+  height: 150px;
+  margin-right: 10px;
+}
+.projects__link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  height: 100%;
+  width: 100%;
+  box-shadow: 10px 10px 40px -1px rgb(0 0 0 / 23%);
+}
+.projects__link:hover {
+  box-shadow: 10px 10px 40px -1px;
+  transition: ease-in-out .3s;
+}
+.projects__img {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 150px;
+  top: 0;
+  left: 0;
+}
+.projects__btn {
+  display: none;
+  color: darkslateblue;
+  font-weight: 400;
+  border: 2px solid darkslateblue;
+  border-radius: 30px;
+  padding: 7px 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+.projects__btn:hover {
+  background: darkslateblue;
+  color: #fff;
+  transition: ease-in-out .3s;
+}
+.projects__item:hover .projects__btn {
+  display: block;
+}
+.projects__item:hover .projects__img {
+  opacity: 50%;
+  transition: ease-in 0.3s;
+}
+.contacts__list {
+  list-style: none;
+}
+.contacts__list-item + .contacts__list-item {
+  margin-top: 15px;
+}
+.contacts__link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #505050;
+}
+.contacts__link:hover {
+  text-decoration: underline;
+}
+.contacts__link-icon,
+.footer__icon {
+  margin-right: 10px;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  font-size: 14px;
+  color: #fff;
+  background-color: darkslateblue; 
+}
+.footer__github {
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+.footer__github:hover,
+.footer__rss:hover {
+  transform: scale(1.1);
+  transition: ease-in 0.1s;
+}
+
+
+
