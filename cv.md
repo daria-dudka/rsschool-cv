@@ -7,25 +7,22 @@
 * **Address:** Odessa, Ukraine
 * **Phone:** +38 093 7509959
 * **E-mail:** [dasha-s@ukr.net](dasha-s@ukr.net)
-* **LinkedIn:** [daria-dudka](https://www.linkedin.com/in/daria-dudka-13130841/)
+* **LinkedIn:** [daria-dudka](https://www.linkedin.com/in/daria-dudka/)
 * **GitHub:** [daria-dudka](https://github.com/daria-dudka)
 
 ---
 
 ### About Me:
 
-My name is Daria and I am a junior front-end developer.<br>
-I like to discover new things in web development. It is great when your code turns into something beautiful.<br>
-Time runs very fast for me when I'm doing something, that I really like.<br>
-I am a team player who easily joins the team, a person who can always support and help.<br>
-I always keep on my education and strive to raise my level higher.
+I'm a Junior Front-End developer with one and a half year of experience working with HTML/CSS and JavaScript to deliver exceptional customer experiences. I'm currently learning React.js and improving my knowledge in this field. I like to discover new things in web development. It is great when your code turns into something beautiful. Time runs very fast for me when I'm doing something, that I really like. I always keep on my education and strive to raise my level higher.
 
 ---
 
 ### Skills and Proficiency:
 
 - HTML5, CSS3, SASS/SCSS, BEM
-- JavaScript Basics
+- JavaScript
+- React.js
 - Gulp
 - Git, GitHub
 - VS Code
@@ -34,6 +31,8 @@ I always keep on my education and strive to raise my level higher.
 ---
 
 ### Code example:
+
+Return an array containing the numbers from 1 to N, where N is the parametered value. Replace certain values however if any of the following conditions are met: If the value is a multiple of 3 - use the value "Fizz" instead. If the value is a multiple of 5 - use the value "Buzz" instead. If the value is a multiple of 3 & 5 - use the value "FizzBuzz" instead.
 
 ```javascript
   function fizzbuzz(n)
@@ -62,12 +61,11 @@ I always keep on my education and strive to raise my level higher.
 **2012-2017** *Odessa I.I.Mechnikov National University*<br>
 English language and Literature (Master's degree)<br>
 **2007-2012** *Odessa I.I.Mechnikov National University*<br>
-International Economic Relationships (Specialist degree)<br>
+International Economic Relationships (Master's degree)<br>
 
 
 ### Courses:
 - **2021** “Alex Lushchenko” [JavaScript v.2.0](https://itgid.info/certificate/view?Certificate%5Buid%5D=7pxqgszvkh)<br>
-- **2020** “From 0 to 1” Mark-up Developer<br>
 - **2020** “GeekBrains” [HTML&CSS](https://gb.ru/certificates/820212.en)<br>
 
 
@@ -75,7 +73,6 @@ International Economic Relationships (Specialist degree)<br>
 
 ### Languages:
 
-- Russian \- Native<br>
 - Ukrainian \- Native<br>
 - English \- Upper-intermediate (FCE Certificate)<br>
 - Spanish \- Pre-intermediate<br>
